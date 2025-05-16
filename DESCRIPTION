@@ -1,0 +1,14 @@
+Package: acmgscaler
+Title: An R package for variant effect calibration to ACMG/AMP evidence levels
+Version: 0.1.0
+Authors@R: 
+    person("Mihaly", "Badonyi", , "mihaly.badonyi@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8305-5618"))
+Description: This R package provides functions to perform calibration and
+    classification of variant effect scores within the ACMG/AMP framework
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en
+Depends: R (>= 3.5.0)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
