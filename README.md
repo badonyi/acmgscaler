@@ -3,7 +3,7 @@
 <!-- badges: start -->
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/badonyi/acmgscaler/blob/main/acmgscaler.ipynb)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/badonyi/acmgscaler?branch=main&svg=true)](https://ci.appveyor.com/project/badonyi/acmgscaler/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/badonyi/acmgscaler/blob/main/LICENSE.md)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/badonyi/acmgscaler/blob/main/LICENSE)
 [![DOI:10.1101/2025.05.16.654507v1](https://img.shields.io/badge/DOI-10.1101/2025.05.16.654507v1-B31B1B.svg)](https://www.biorxiv.org/content/10.1101/2025.05.16.654507v1)
 <!-- badges: end -->
 
