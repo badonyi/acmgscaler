@@ -16,7 +16,7 @@ A plug-and-play [Google Colab](https://colab.research.google.com/github/badonyi/
 
 
 ## Installation
-You can install the development version of `acmgscaler` directly from GitHub using the `devtools` package:
+You can install the stable version of `acmgscaler` directly from GitHub using the `devtools` package:
 
 ```r
 # install devtools if you haven't already
