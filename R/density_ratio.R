@@ -38,7 +38,7 @@ density_ratio <- function(x, t) {
     llr_mat[i, ] <- monotonise(llr_mat[i, ], is_inv)
   }
 
-  # compute 90% percentile-based confidence intervals
+  # compute 95% confidence intervals for the location of the median
   llr_ci <- apply(llr_mat, 2, median_ci)
 
   # strictly enforce shape constraint on estimates
