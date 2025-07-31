@@ -27,6 +27,27 @@ devtools::install_github('badonyi/acmgscaler')
 ```
 
 
+## Quick start
+
+```r
+library(acmgscaler)
+data('variant_data', package = 'acmgscaler')
+
+# calibrate example data
+calib <- calibrate(
+  df = variant_data,
+  value = 'score', 
+  prior = 0.1,
+  group = 'gene'
+)
+
+# likelihood_ratio data for each variant
+calib$BRCA1$likelihood_ratios
+
+# score thresholds for ACMG/AMP evidence levels
+calib$BRCA1$score_thresholds
+```
+
+
 ## How to cite `acmgscaler`
 If you find this package useful, refer to Badonyi & Marsh, *bioRxiv* (2025); doi: [10.1101/2025.05.16.654507v1](https://www.biorxiv.org/content/10.1101/2025.05.16.654507v1)
-
