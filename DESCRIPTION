@@ -4,7 +4,8 @@ Version: 1.0.0
 Authors@R: 
     person("Mihaly", "Badonyi", , "mihaly.badonyi@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-8305-5618"))
-Description: An R package for functional score calibration to ACMG/AMP evidence strength
+Description: Provides tools to calibrate functional variant scores to ACMG/AMP
+    evidence strength levels for clinical variant interpretation.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Language: en

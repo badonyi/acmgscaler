@@ -24,7 +24,7 @@ density_ratio <- function(x, t) {
 
   # compute variance-based penalty
   eps <- .Machine$double.eps
-  mads <- apply(log(pd + eps) - log(bd + eps), 2, mad)
+  mads <- apply(log(pd + eps) - log(bd + eps), 2, stats::mad)
   lambda <- mads / max(mads) * sqrt(sum(diff(mads)^2)) / sum(mads)
 
   # regularise the log-LR matrix
