@@ -42,14 +42,14 @@ thresholds_from_pvst <- function(pvst) {
   # Helper to derive likelihood points for evidence levels given the Pvst
 
   c(
-    'b_very_strong' = 1 / pvst,
-    'b_strong' =      1 / pvst^0.5,
-    'b_moderate' =    1 / pvst^0.25,
-    'b_supporting' =  1 / pvst^0.125,
-    'p_supporting' =  pvst^0.125,
-    'p_moderate' =    pvst^0.25,
-    'p_strong' =      pvst^0.5,
-    'p_very_strong' = pvst
+    'Benign-VeryStrong'     = 1 / pvst,
+    'Benign-Strong'         = 1 / pvst^0.5,
+    'Benign-Moderate'       = 1 / pvst^0.25,
+    'Benign-Supporting'     = 1 / pvst^0.125,
+    'Pathogenic-Supporting' = pvst^0.125,
+    'Pathogenic-Moderate'   = pvst^0.25,
+    'Pathogenic-Strong'     = pvst^0.5,
+    'Pathogenic-VeryStrong' = pvst
   )
 }
 
@@ -113,14 +113,14 @@ prettify_score_thresholds <- function(tbl) {
   # Colab-specific function for the interpretation of score intervals
 
   evidence_map <- c(
-    'b_very_strong|b_strong'     = 'Benign-VeryStrong',
-    'b_strong|b_moderate'        = 'Benign-Strong',
-    'b_moderate|b_supporting'    = 'Benign-Moderate',
-    'b_supporting|indeterminate' = 'Benign-Supporting',
-    'indeterminate|p_supporting' = 'Pathogenic-Supporting',
-    'p_supporting|p_moderate'    = 'Pathogenic-Moderate',
-    'p_moderate|p_strong'        = 'Pathogenic-Strong',
-    'p_strong|p_very_strong'     = 'Pathogenic-VeryStrong'
+    'Benign-VeryStrong|Benign-Strong'           = 'Benign-VeryStrong',
+    'Benign-Strong|Benign-Moderate'             = 'Benign-Strong',
+    'Benign-Moderate|Benign-Supporting'         = 'Benign-Moderate',
+    'Benign-Supporting|Indeterminate'           = 'Benign-Supporting',
+    'Indeterminate|Pathogenic-Supporting'       = 'Pathogenic-Supporting',
+    'Pathogenic-Supporting|Pathogenic-Moderate' = 'Pathogenic-Moderate',
+    'Pathogenic-Moderate|Pathogenic-Strong'     = 'Pathogenic-Strong',
+    'Pathogenic-Strong|Pathogenic-VeryStrong'   = 'Pathogenic-VeryStrong'
   )
 
   # rename evidence levels

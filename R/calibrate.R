@@ -445,14 +445,14 @@ build_threshold_df <- function(value) {
   threshold_df <- structure(
     list(
       evidence = factor(c(
-        'b_very_strong|b_strong',
-        'b_strong|b_moderate',
-        'b_moderate|b_supporting',
-        'b_supporting|indeterminate',
-        'indeterminate|p_supporting',
-        'p_supporting|p_moderate',
-        'p_moderate|p_strong',
-        'p_strong|p_very_strong'
+        'Benign-VeryStrong|Benign-Strong',
+        'Benign-Strong|Benign-Moderate',
+        'Benign-Moderate|Benign-Supporting',
+        'Benign-Supporting|Indeterminate',
+        'Indeterminate|Pathogenic-Supporting',
+        'Pathogenic-Supporting|Pathogenic-Moderate',
+        'Pathogenic-Moderate|Pathogenic-Strong',
+        'Pathogenic-Strong|Pathogenic-VeryStrong'
       ))
     ),
     class = 'data.frame',
