@@ -49,5 +49,23 @@ calib$BRCA1$score_thresholds
 ```
 
 
+The Colab uses a non-exported internal function to display the score intervals:
+
+```r
+acmgscaler:::prettify_score_thresholds(calib$BRCA1$score_thresholds)
+```
+
+```
+  ACMG/AMP evidence strength      score
+1          Benign-VeryStrong       <NA>
+2              Benign-Strong > -0.61243
+3            Benign-Moderate > -0.77564
+4          Benign-Supporting > -0.84782
+5      Pathogenic-Supporting < -1.01955
+6        Pathogenic-Moderate < -1.08209
+7          Pathogenic-Strong < -1.17951
+8      Pathogenic-VeryStrong < -2.14538
+```
+
 ## How to cite `acmgscaler`
 If you find this package useful, refer to Badonyi & Marsh, *bioRxiv* (2025); doi: [10.1101/2025.05.16.654507v1](https://www.biorxiv.org/content/10.1101/2025.05.16.654507v1)
