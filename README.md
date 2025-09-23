@@ -2,6 +2,8 @@
 
 <!-- badges: start -->
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/badonyi/acmgscaler/blob/main/acmgscaler.ipynb)
+[![CRANstatus](https://www.r-pkg.org/badges/version/acmgscaler)](https://cran.r-project.org/package=acmgscaler)
+[![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/acmgscaler?color=blue)](https://CRAN.R-project.org/package=acmgscaler)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/badonyi/acmgscaler?branch=main&svg=true)](https://ci.appveyor.com/project/badonyi/acmgscaler/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/badonyi/acmgscaler/blob/main/LICENSE)
 [![DOI:10.1101/2025.05.16.654507v2](https://img.shields.io/badge/DOI-10.1101/2025.05.16.654507v2-B31B1B.svg)](https://www.biorxiv.org/content/10.1101/2025.05.16.654507v2)
@@ -16,13 +18,12 @@ A plug-and-play [Google Colab](https://colab.research.google.com/github/badonyi/
 
 
 ## Installation
-You can install the stable version of `acmgscaler` directly from GitHub using the `devtools` package:
+You can install the stable version of `acmgscaler` directly from R:
 
 ```r
-# install devtools if you haven't already
-install.packages('devtools')
+install.packages('acmgscaler')
 
-# install the acmgscaler package from GitHub
+# or install the development version from GitHub
 devtools::install_github('badonyi/acmgscaler')
 ```
 
