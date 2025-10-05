@@ -6,7 +6,7 @@
 [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/acmgscaler?color=blue)](https://CRAN.R-project.org/package=acmgscaler)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/badonyi/acmgscaler?branch=main&svg=true)](https://ci.appveyor.com/project/badonyi/acmgscaler/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/badonyi/acmgscaler/blob/main/LICENSE)
-[![DOI:10.1101/2025.05.16.654507v2](https://img.shields.io/badge/DOI-10.1101/2025.05.16.654507v2-B31B1B.svg)](https://www.biorxiv.org/content/10.1101/2025.05.16.654507v2)
+[![DOI:10.1093/bioinformatics/btaf503](https://img.shields.io/badge/DOI-10.1093/bioinformatics/btaf503-B31B1B.svg)](https://doi.org/10.1093/bioinformatics/btaf503)
 <!-- badges: end -->
 
 The goal of the `acmgscaler` R package is to provide a robust approach for gene-level calibration of variant effect scores, such as computational predictions or functional assay results, against ACMG/AMP evidence thresholds.
@@ -69,4 +69,4 @@ acmgscaler:::prettify_score_thresholds(calib$BRCA1$score_thresholds)
 ```
 
 ## How to cite `acmgscaler`
-If you find this package useful, refer to Badonyi & Marsh, *bioRxiv* (2025); doi: [10.1101/2025.05.16.654507v2](https://www.biorxiv.org/content/10.1101/2025.05.16.654507v2)
+If you find this package useful, refer to Badonyi & Marsh, *bioRxiv* (2025); doi: [10.1093/bioinformatics/btaf503](https://doi.org/10.1093/bioinformatics/btaf503)
