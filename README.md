@@ -69,4 +69,4 @@ acmgscaler:::prettify_score_thresholds(calib$BRCA1$score_thresholds)
 ```
 
 ## How to cite `acmgscaler`
-If you find this package useful, refer to Badonyi & Marsh, *bioRxiv* (2025); doi: [10.1093/bioinformatics/btaf503](https://doi.org/10.1093/bioinformatics/btaf503)
+If you find this package useful, refer to Badonyi & Marsh, *Bioinformatics* (2025); DOI: [10.1093/bioinformatics/btaf503](https://doi.org/10.1093/bioinformatics/btaf503)
