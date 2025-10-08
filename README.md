@@ -34,7 +34,7 @@ devtools::install_github('badonyi/acmgscaler')
 library(acmgscaler)
 data('variant_data', package = 'acmgscaler')
 
-# calibrate example data
+# calibrate the example data
 calib <- calibrate(
   df = variant_data,
   value = 'score', 
@@ -42,7 +42,7 @@ calib <- calibrate(
   group = 'gene'
 )
 
-# likelihood_ratio data for each variant
+# likelihood ratios for each variant
 calib$BRCA1$likelihood_ratios
 
 # score thresholds for ACMG/AMP evidence levels
