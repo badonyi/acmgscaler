@@ -4,7 +4,7 @@
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/badonyi/acmgscaler/blob/main/acmgscaler.ipynb)
 [![CRANstatus](https://www.r-pkg.org/badges/version/acmgscaler)](https://cran.r-project.org/package=acmgscaler)
 [![Total downloads](https://cranlogs.r-pkg.org/badges/grand-total/acmgscaler?color=blue)](https://CRAN.R-project.org/package=acmgscaler)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/badonyi/acmgscaler?branch=main&svg=true)](https://ci.appveyor.com/project/badonyi/acmgscaler/)
+[![AppVeyor](https://img.shields.io/appveyor/build/badonyi/acmgscaler/main)](https://ci.appveyor.com/project/badonyi/acmgscaler)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/badonyi/acmgscaler/blob/main/LICENSE)
 [![DOI:10.1093/bioinformatics/btaf503](https://img.shields.io/badge/DOI-10.1093/bioinformatics/btaf503-B31B1B.svg)](https://doi.org/10.1093/bioinformatics/btaf503)
 <!-- badges: end -->
