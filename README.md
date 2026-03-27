@@ -18,7 +18,7 @@ A plug-and-play [Google Colab](https://colab.research.google.com/github/badonyi/
 
 ---
 
-![Updates](https://img.shields.io/badge/Updates-blue?logo=googlecolab&logoColor=white)
+[![Updates](https://img.shields.io/badge/Updates-blue?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/badonyi/acmgscaler/blob/main/acmgscaler.ipynb)
 
 [**2026-03-27**] – Evidence strength calculation added to the Colab notebook (see **References**).
 
