@@ -16,6 +16,9 @@ The package is lightweight and written entirely in base R, without additional de
 ## Colab notebook
 A plug-and-play [Google Colab](https://colab.research.google.com/github/badonyi/acmgscaler/blob/main/acmgscaler.ipynb) notebook with a simple interface is available for all users.
 
+<span style="color:red"><strong>Updates</strong></span>  
+[2026-03-27] – **M**ean **e**vidence **s**trength (MES) calculation added to the Colab notebook (see **References**).
+
 
 ## Installation
 You can install the stable version of `acmgscaler` directly from R:
@@ -50,7 +53,7 @@ calib$BRCA1$score_thresholds
 ```
 
 
-## Reference
+## References
 ```
 @article{acmgscaler,
   title={acmgscaler: An R package and Colab for standardised gene-level variant effect score calibration within the ACMG/AMP framework},
@@ -59,5 +62,13 @@ calib$BRCA1$score_thresholds
   pages={btaf503},
   year={2025},
   publisher={Oxford University Press}
+}
+
+@article{MES,
+  title={Clinical evidence yield as a framework for evaluating computational predictors and multiplexed assays of variant effect},
+  author={Shang, Yifei and Badonyi, Mihaly and Marsh, Joseph A},
+  journal={bioRxiv},
+  year={2026},
+  publisher={Cold Spring Harbor Laboratory}
 }
 ```
