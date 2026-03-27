@@ -16,8 +16,13 @@ The package is lightweight and written entirely in base R, without additional de
 ## Colab notebook
 A plug-and-play [Google Colab](https://colab.research.google.com/github/badonyi/acmgscaler/blob/main/acmgscaler.ipynb) notebook with a simple interface is available for all users.
 
-<span style="color:red"><strong>Updates</strong></span>  
-[2026-03-27] – **M**ean **e**vidence **s**trength (MES) calculation added to the Colab notebook (see **References**).
+---
+
+![Updates](https://img.shields.io/badge/Updates-blue?logo=googlecolab&logoColor=white)
+
+[**2026-03-27**] – Evidence strength calculation added to the Colab notebook (see **References**).
+
+---
 
 
 ## Installation
